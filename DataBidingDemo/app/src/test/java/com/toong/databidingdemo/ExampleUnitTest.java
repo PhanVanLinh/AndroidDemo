@@ -1,4 +1,4 @@
-package toong.coom.databidingdemo;
+package com.toong.databidingdemo;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package toong.coom.databidingdemo;
+package com.toong.databidingdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("toong.coom.databidingdemo", appContext.getPackageName());
+        assertEquals("com.toong.databidingdemo", appContext.getPackageName());
     }
 }
