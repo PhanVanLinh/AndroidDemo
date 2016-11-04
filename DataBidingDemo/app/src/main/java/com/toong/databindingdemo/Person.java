@@ -7,7 +7,7 @@ import android.databinding.Bindable;
  * Created by framgia on 02/11/2016.
  */
 
-public class User extends BaseObservable{
+public class Person extends BaseObservable{
     private String name;
     private String email;
 

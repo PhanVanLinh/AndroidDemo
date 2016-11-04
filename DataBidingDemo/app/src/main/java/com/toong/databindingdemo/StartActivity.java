@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.toong.databindingdemo.databinding.ActivityStartBinding;
+import com.toong.databindingdemo.recycler.DataBindingRecyclerViewActivity;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -20,10 +21,15 @@ public class StartActivity extends AppCompatActivity {
         binding.setActivity(this);
     }
 
-    public void onButtonClick(){
+    public void onDataBindingActivityClick(){
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
 
+    }
+
+    public void onDataBindingRecyclerViewClick(){
+        Intent intent = new Intent(this, DataBindingRecyclerViewActivity.class);
+        startActivity(intent);
     }
 }

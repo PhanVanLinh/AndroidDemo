@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="user"
-            type="com.toong.databindingdemo.User" />
+            name="person"
+            type="com.toong.databindingdemo.Person" />
 
         <variable
             name="activity"
@@ -30,11 +30,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Data Binding Sigle Activity"
-            android:onClick="@{()->activity.onButtonClick()}"/>
+            android:onClick="@{()->activity.onDataBindingActivityClick()}"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data Binding Recyclerview" />
+            android:text="Data Binding Recyclerview"
+            android:onClick="@{()->activity.onDataBindingRecyclerViewClick()}"
+            />
     </LinearLayout>
 </layout>
