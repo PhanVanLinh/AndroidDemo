@@ -12,9 +12,8 @@
     tools:context="com.example.framgia.testlineargradient.MainActivity"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <com.example.framgia.testlineargradient.CustomView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         />
 </RelativeLayout>
