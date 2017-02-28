@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cardaction_neutral_pressed.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_cardaction_neutral_pressed.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cardaction_positive_pressed.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_cardaction_positive_pressed.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cardaction_neutral.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_cardaction_neutral.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/card_bg.9.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/card_bg.9.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cardaction_positive.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_cardaction_positive.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cardaction_negative_pressed.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_cardaction_negative_pressed.png"
+    },
+    {
+        "merged": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cardaction_negative.png",
+        "source": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/drawable-xhdpi/ic_cardaction_negative.png"
+    }
+]

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_5d76bc8e8427b5206dedb1775d2dab5c74393f0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b6dc82a43ca158b6765cd6be09ac1d166f1172fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_5127525c03aa3506c658d4191c30889a708b1d4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_0dadcc704b330777baef89ac451ce1df746ed566/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_e0a5f47404326150c648a00743066a2d6da15381/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_c5c650e38ce116ef76338706ca45227325b17aa5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_da3459bea63b9cb5c656be6aa7b0c0a7f7a9f17a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_dbed7a6c6d3ced0ed9ae5126eb6ee839e229de30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_2fa435e796f641330db7f75a8e0c67dbeb7fa7d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="808cb511201cb04ab15df8c1100585593079939e">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_62b260e4cea24f494ea62cd765b09e51d2fd20df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_dea51c7363c1b169ceb96f00eb2d7ffdd36fa283/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_4896c26ea2116ffcf41b4040e7060f555845a74c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_6b5829f901ee65d43e99177b980fb852d1f92e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_c72feecb1e4153cc838badccf65b7a0ece557f1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec245b6618efa980414686b795afb16a284d31fa">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c19540dfa7a8e9acb3a30743a7005fde4f3778ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_dc2de992a7e1e88d051ca5b53a0c0adc9c50647a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_30c8ae51e9be1265e9d78b1e79da8f467d8d4ea7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_3efc8da59a6da18e87a34c063eae0153f2e6ac83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_c22a8600ebf908a181149e1f87d4743077a50f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9a5b0bb9f10b949b1858e250be9465d5d02692ae/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,68 @@
+[
+    {
+        "outputFile": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/values-v16/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "/home/framgia/AndroidStudioProjects/AndroidDemo/android-BatchStepSensor-master/Application/src/main/res/values-v16/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 191
+                    }
+                }
+            }
+        ]
+    }
+]

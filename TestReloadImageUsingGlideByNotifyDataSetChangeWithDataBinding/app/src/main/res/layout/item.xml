@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+    <data>
+        <variable
+            name="viewHolder"
+            type="example.toong.testreloadimageusingglidebynotifydatasetchangewithdatabinding.RecyclerViewAdapter.MyViewHolder"
+        />
+    </data>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_holding_three_gradient_layer"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:src="@{viewHolder.src}"
+        />
+
+    </LinearLayout>
+</layout>
