@@ -6,4 +6,13 @@ package example.toong.moreeffectiveapplication.model;
  */
 
 public class TipsFactory {
+
+
+
+    String tip = "Open <button>Setting</button><br/>";
+
+
+    public void a(){
+//        for ()
+    }
 }

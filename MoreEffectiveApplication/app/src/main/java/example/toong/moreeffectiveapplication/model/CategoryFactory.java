@@ -12,7 +12,6 @@ import static example.toong.moreeffectiveapplication.model.Category.HEALTH;
  */
 
 public class CategoryFactory {
-
     
     public static List<Category> buildDefaultCategory() {
         List<Category> mCategoryList = new ArrayList<>();

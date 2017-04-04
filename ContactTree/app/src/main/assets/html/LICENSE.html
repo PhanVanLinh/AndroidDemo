@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document.md</title>
+    <style></style>
+</head>
+<body id="preview">
+<p>Mapion GL uses portions of mapbox-gl-native</p>
+<p>mapbox-gl-native copyright © 2014-2016 Mapbox.</p>
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted
+    provided that the following conditions are met:</p>
+<ul>
+    <li>Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer.
+    </li>
+    <li>Redistributions in binary form must reproduce the above copyright notice, this list of
+        conditions and the following disclaimer in the documentation and/or other materials provided
+        with the distribution.
+    </li>
+</ul>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR
+    IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+    FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+    OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+    POSSIBILITY OF SUCH DAMAGE.</p>
+<p>Mapion GL uses portions of Android Gesture Detectors Framework.</p>
+<p>Copyright © 2012, Almer Thie</p>
+<p>All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted
+    provided that the following conditions are met:</p>
+<ul>
+    <li>Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer.
+    </li>
+    <li>Redistributions in binary form must reproduce the above copyright notice, this list of
+        conditions and the following disclaimer in the documentation and/or other materials provided
+        with the distribution.
+    </li>
+</ul>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR
+    IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+    FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+    OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+    POSSIBILITY OF SUCH DAMAGE.</p>
+<p>Mapion GL uses portions of Android Support Library.</p>
+<p>Copyright © 2005-2013, The Android Open Source Project</p>
+<p>Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except
+    in compliance with the License. You may obtain a copy of the License at</p>
+<p>
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>
+</p>
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License
+    is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+    or implied. See the License for the specific language governing permissions and limitations
+    under the License.</p>
+<p>Mapion GL uses portions of Boost.</p>
+<p>Distributed under the Boost Software License, Version 1.0.</p>
+<p><a href="http://www.boost.org/LICENSE_1_0.txt">http://www.boost.org/LICENSE_1_0.txt</a></p>
+<p>Mapion GL uses portions of Clipper.</p>
+<p>Author : Angus Johnson<br>
+    Version : 6.1.3a<br>
+    Date : 22 January 2014<br>
+    Website : <a href="http://www.angusj.com">http://www.angusj.com</a><br>
+    Copyright : Angus Johnson 2010-2014</p>
+<p>License:<br>
+    Use, modification &amp; distribution is subject to Boost Software License Ver 1.<br>
+    <a href="http://www.boost.org/LICENSE_1_0.txt">http://www.boost.org/LICENSE_1_0.txt</a></p>
+<p>Attributions:<br>
+    The code in this library is an extension of Bala Vatti’s clipping algorithm:<br>
+    “A generic solution to polygon clipping” Communications of the ACM, Vol 35, Issue 7 (July 1992)
+    pp 56-63.<br>
+    <a href="http://portal.acm.org/citation.cfm?id=129906">http://portal.acm.org/citation.cfm?id=129906</a>
+</p>
+<p>Computer graphics and geometric modeling: implementation and algorithms<br>
+    By Max K. Agoston<br>
+    Springer; 1 edition (January 4, 2005)<br>
+    <a href="http://books.google.com/books?q=vatti+clipping+agoston">http://books.google.com/books?q=vatti+clipping+agoston</a>
+</p>
+<p>See also:<br>
+    “Polygon Offsetting by Computing Winding Numbers”<br>
+    Paper no. DETC2005-85513 pp. 565-575<br>
+    ASME 2005 International Design Engineering Technical Conferences<br>
+    and Computers and Information in Engineering Conference (IDETC/CIE2005)<br>
+    September 24-28, 2005 , Long Beach, California, USA<br>
+    <a href="http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf">http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf</a>
+</p>
+<p>Mapion GL uses portions of BugshotKit.</p>
+<p>The MIT License (MIT)</p>
+<p>Copyright © 2014 marcoarment</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of<br>
+    this software and associated documentation files (the “Software”), to deal in<br>
+    the Software without restriction, including without limitation the rights to<br>
+    use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of<br>
+    the Software, and to permit persons to whom the Software is furnished to do so,<br>
+    subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all<br>
+    copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS<br>
+    FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR<br>
+    COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER<br>
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN<br>
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>Mapion GL uses portions of CSS Color Parser.</p>
+<p>© Dean McNamee <a href="mailto:dean@gmail.com">dean@gmail.com</a>, 2012.<br>
+    C++ port by Konstantin Käfer <a href="mailto:mail@kkaefer.com">mail@kkaefer.com</a>, 2014.</p>
+<p><a href="https://github.com/deanm/css-color-parser-js">https://github.com/deanm/css-color-parser-js</a><br>
+    <a href="https://github.com/kkaefer/css-color-parser-cpp">https://github.com/kkaefer/css-color-parser-cpp</a>
+</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy<br>
+    of this software and associated documentation files (the “Software”), to<br>
+    deal in the Software without restriction, including without limitation the<br>
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or<br>
+    sell copies of the Software, and to permit persons to whom the Software is<br>
+    furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in<br>
+    all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<br>
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING<br>
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS<br>
+    IN THE SOFTWARE.</p>
+<p>Mapion GL uses portions of GLFW.</p>
+<p>Copyright © 2002-2006 Marcus Geelnard<br>
+    Copyright © 2006-2010 Camilla Berglund <a href="mailto:elmindreda@elmindreda.org">elmindreda@elmindreda.org</a>
+</p>
+<p>This software is provided ‘as-is’, without any express or implied<br>
+    warranty. In no event will the authors be held liable for any damages<br>
+    arising from the use of this software.</p>
+<p>Permission is granted to anyone to use this software for any purpose,<br>
+    including commercial applications, and to alter it and redistribute it<br>
+    freely, subject to the following restrictions:</p>
+<ol>
+    <li>
+        <p>The origin of this software must not be misrepresented; you must not<br>
+            claim that you wrote the original software. If you use this software<br>
+            in a product, an acknowledgment in the product documentation would<br>
+            be appreciated but is not required.</p>
+    </li>
+    <li>
+        <p>Altered source versions must be plainly marked as such, and must not<br>
+            be misrepresented as being the original software.</p>
+    </li>
+    <li>
+        <p>This notice may not be removed or altered from any source<br>
+            distribution.</p>
+    </li>
+</ol>
+<p>Mapion GL uses portions of libc++.</p>
+<p>The libc++ library is dual licensed under both the University of Illinois<br>
+    “BSD-Like” license and the MIT license. As a user of this code you may choose<br>
+    to use it under either license. As a contributor, you agree to allow your code<br>
+    to be used under both.</p>
+<p>Full text of the relevant licenses is included below.</p>
+<p>University of Illinois/NCSA<br>
+    Open Source License</p>
+<p>Copyright © 2009-2015 by the contributors listed in CREDITS.TXT</p>
+<p>All rights reserved.</p>
+<p>Developed by:</p>
+<a href="http://llvm.org">LLVM Team University of Illinois at Urbana-Champaign</a>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of<br>
+    this software and associated documentation files (the “Software”), to deal with<br>
+    the Software without restriction, including without limitation the rights to<br>
+    use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies<br>
+    of the Software, and to permit persons to whom the Software is furnished to do<br>
+    so, subject to the following conditions:</p>
+<ul>
+    <li>
+        <p>Redistributions of source code must retain the above copyright notice,<br>
+            this list of conditions and the following disclaimers.</p>
+    </li>
+    <li>
+        <p>Redistributions in binary form must reproduce the above copyright notice,<br>
+            this list of conditions and the following disclaimers in the<br>
+            documentation and/or other materials provided with the distribution.</p>
+    </li>
+    <li>
+        <p>Neither the names of the LLVM Team, University of Illinois at<br>
+            Urbana-Champaign, nor the names of its contributors may be used to<br>
+            endorse or promote products derived from this Software without specific<br>
+            prior written permission.</p>
+    </li>
+</ul>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+    NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
+    SOFTWARE.</p>
+<p>Copyright © 2009-2014 by the contributors listed in CREDITS.TXT</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+    associated documentation files (the “Software”), to deal in the Software without restriction,
+    including without limitation the rights to use, copy, modify, merge, publish, distribute,
+    sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+<p>The above copyright notice and this permission notice shall be included in<br>
+    all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+    NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>Mapion GL uses portions of libcurl.</p>
+<p>COPYRIGHT AND PERMISSION NOTICE</p>
+<p>Copyright © 1996 - 2015, Daniel Stenberg, <a href="mailto:daniel@haxx.se">daniel@haxx.se</a>.</p>
+<p>All rights reserved.</p>
+<p>Permission to use, copy, modify, and distribute this software for any purpose<br>
+    with or without fee is hereby granted, provided that the above copyright<br>
+    notice and this permission notice appear in all copies.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN<br>
+    NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,<br>
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR<br>
+    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE<br>
+    OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>Except as contained in this notice, the name of a copyright holder shall not<br>
+    be used in advertising or otherwise to promote the sale, use or other dealings<br>
+    in this Software without prior written authorization of the copyright holder.</p>
+<p>Mapion GL uses portions of libjpeg-turbo.</p>
+<p>This software is based in part on the work of the Independent JPEG Group.</p>
+<p>Copyright ©2009-2015 D. R. Commander. All Rights Reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions are met:</p>
+<ul>
+    <li>Redistributions of source code must retain the above copyright notice,<br>
+        this list of conditions and the following disclaimer.
+    </li>
+    <li>Redistributions in binary form must reproduce the above copyright notice,<br>
+        this list of conditions and the following disclaimer in the documentation<br>
+        and/or other materials provided with the distribution.
+    </li>
+    <li>Neither the name of the libjpeg-turbo Project nor the names of its<br>
+        contributors may be used to endorse or promote products derived from this<br>
+        software without specific prior written permission.
+    </li>
+</ul>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS”,<br>
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE<br>
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE<br>
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE<br>
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR<br>
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF<br>
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS<br>
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN<br>
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)<br>
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<br>
+    POSSIBILITY OF SUCH DAMAGE.</p>
+<p>TurboJPEG/LJT: this implements the TurboJPEG API using libjpeg or libjpeg-turbo</p>
+<p>Mapion GL uses portions of libpng.</p>
+<p>This copy of the libpng notices is provided for your convenience. In case of<br>
+    any discrepancy between this copy and the notices in the file png.h that is<br>
+    included in the libpng distribution, the latter shall prevail.</p>
+<p>COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:</p>
+<p>If you modify libpng you may insert additional notices immediately following<br>
+    this sentence.</p>
+<p>This code is released under the libpng license.</p>
+<p>libpng versions 1.0.7, July 1, 2000, through 1.6.18, July 23, 2015, are<br>
+    Copyright © 2000-2002, 2004, 2006-2015 Glenn Randers-Pehrson, and are<br>
+    distributed according to the same disclaimer and license as libpng-1.0.6<br>
+    with the following individuals added to the list of Contributing Authors:</p>
+<p>Simon-Pierre Cadieux<br>
+    Eric S. Raymond<br>
+    Mans Rullgard<br>
+    Cosmin Truta<br>
+    Gilles Vollant<br>
+    James Yu</p>
+<p>and with the following additions to the disclaimer:</p>
+<p>There is no warranty against interference with your enjoyment of the<br>
+    library or against infringement. There is no warranty that our<br>
+    efforts or the library will fulfill any of your particular purposes<br>
+    or needs. This library is provided with all faults, and the entire<br>
+    risk of satisfactory quality, performance, accuracy, and effort is with<br>
+    the user.</p>
+<p>libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are<br>
+    Copyright © 1998-2000 Glenn Randers-Pehrson, and are distributed according<br>
+    to the same disclaimer and license as libpng-0.96, with the following<br>
+    individuals added to the list of Contributing Authors:</p>
+<p>Tom Lane<br>
+    Glenn Randers-Pehrson<br>
+    Willem van Schaik</p>
+<p>libpng versions 0.89, June 1996, through 0.96, May 1997, are<br>
+    Copyright © 1996-1997 Andreas Dilger, and are<br>
+    distributed according to the same disclaimer and license as libpng-0.88,<br>
+    with the following individuals added to the list of Contributing Authors:</p>
+<p>John Bowler<br>
+    Kevin Bracey<br>
+    Sam Bushell<br>
+    Magnus Holmgren<br>
+    Greg Roelofs<br>
+    Tom Tanner</p>
+<p>libpng versions 0.5, May 1995, through 0.88, January 1996, are<br>
+    Copyright © 1995-1996 Guy Eric Schalnat, Group 42, Inc.</p>
+<p>For the purposes of this copyright and license, “Contributing Authors”<br>
+    is defined as the following set of individuals:</p>
+<p>Andreas Dilger<br>
+    Dave Martindale<br>
+    Guy Eric Schalnat<br>
+    Paul Schmidt<br>
+    Tim Wegner</p>
+<p>The PNG Reference Library is supplied “AS IS”. The Contributing Authors<br>
+    and Group 42, Inc. disclaim all warranties, expressed or implied,<br>
+    including, without limitation, the warranties of merchantability and of<br>
+    fitness for any purpose. The Contributing Authors and Group 42, Inc.<br>
+    assume no liability for direct, indirect, incidental, special, exemplary,<br>
+    or consequential damages, which may result from the use of the PNG<br>
+    Reference Library, even if advised of the possibility of such damage.</p>
+<p>Permission is hereby granted to use, copy, modify, and distribute this<br>
+    source code, or portions hereof, for any purpose, without fee, subject<br>
+    to the following restrictions:</p>
+<ol>
+    <li>
+        <p>The origin of this source code must not be misrepresented.</p>
+    </li>
+    <li>
+        <p>Altered versions must be plainly marked as such and must not<br>
+            be misrepresented as being the original source.</p>
+    </li>
+    <li>
+        <p>This Copyright notice may not be removed or altered from any<br>
+            source or altered source distribution.</p>
+    </li>
+</ol>
+<p>The Contributing Authors and Group 42, Inc. specifically permit, without<br>
+    fee, and encourage the use of this source code as a component to<br>
+    supporting the PNG file format in commercial products. If you use this<br>
+    source code in a product, acknowledgment is not required but would be<br>
+    appreciated.</p>
+<p>Mapion GL uses portions of libtess2.</p>
+<p>SGI FREE SOFTWARE LICENSE B (Version 2.0, Sept. 18, 2008)<br>
+    Copyright © [dates of first publication] Silicon Graphics, Inc.<br>
+    All Rights Reserved.</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy<br>
+    of this software and associated documentation files (the “Software”), to deal<br>
+    in the Software without restriction, including without limitation the rights<br>
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies<br>
+    of the Software, and to permit persons to whom the Software is furnished to do so,<br>
+    subject to the following conditions:</p>
+<p>The above copyright notice including the dates of first publication and either this<br>
+    permission notice or a reference to <a href="http://oss.sgi.com/projects/FreeB/">http://oss.sgi.com/projects/FreeB/</a>
+    shall be<br>
+    included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,<br>
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A<br>
+    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL SILICON GRAPHICS, INC.<br>
+    BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,<br>
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE<br>
+    OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>Except as contained in this notice, the name of Silicon Graphics, Inc. shall not<br>
+    be used in advertising or otherwise to promote the sale, use or other dealings in<br>
+    this Software without prior written authorization from Silicon Graphics, Inc.</p>
+<p>Mapion GL uses portions of libuv.</p>
+<p>libuv is part of the Node project: <a href="http://nodejs.org/">http://nodejs.org/</a><br>
+    libuv may be distributed alone under Node’s license:</p>
+<p>Copyright Joyent, Inc. and other Node contributors. All rights reserved.<br>
+    Permission is hereby granted, free of charge, to any person obtaining a copy<br>
+    of this software and associated documentation files (the “Software”), to<br>
+    deal in the Software without restriction, including without limitation the<br>
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or<br>
+    sell copies of the Software, and to permit persons to whom the Software is<br>
+    furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in<br>
+    all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<br>
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING<br>
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS<br>
+    IN THE SOFTWARE.</p>
+<p>This license applies to all parts of libuv that are not externally<br>
+    maintained libraries.</p>
+<p>The externally maintained libraries used by libuv are:</p>
+<ul>
+    <li>
+        <p>tree.h (from FreeBSD), copyright Niels Provos. Two clause BSD license.</p>
+    </li>
+    <li>
+        <p>inet_pton and inet_ntop implementations, contained in src/inet.c, are<br>
+            copyright the Internet Systems Consortium, Inc., and licensed under the ISC<br>
+            license.</p>
+    </li>
+    <li>
+        <p>stdint-msvc2008.h (from msinttypes), copyright Alexander Chemeris. Three<br>
+            clause BSD license.</p>
+    </li>
+    <li>
+        <p>pthread-fixes.h, pthread-fixes.c, copyright Google Inc. and Sony Mobile<br>
+            Communications AB. Three clause BSD license.</p>
+    </li>
+    <li>
+        <p>android-ifaddrs.h, android-ifaddrs.c, copyright Berkeley Software Design<br>
+            Inc, Kenneth MacKay and Emergya (Cloud4all, FP7/2007-2013, grant agreement<br>
+            n° 289016). Three clause BSD license.</p>
+    </li>
+</ul>
+<p>Mapion GL uses portions of libzip.</p>
+<p>Copyright © 1999-2014 Dieter Baron and Thomas Klausner</p>
+<p>The authors can be contacted at <a href="mailto:libzip@nih.at">libzip@nih.at</a></p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions<br>
+    are met:</p>
+<ol>
+    <li>
+        <p>Redistributions of source code must retain the above copyright<br>
+            notice, this list of conditions and the following disclaimer.</p>
+    </li>
+    <li>
+        <p>Redistributions in binary form must reproduce the above copyright<br>
+            notice, this list of conditions and the following disclaimer in<br>
+            the documentation and/or other materials provided with the<br>
+            distribution.</p>
+    </li>
+    <li>
+        <p>The names of the authors may not be used to endorse or promote<br>
+            products derived from this software without specific prior<br>
+            written permission.</p>
+    </li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS’’ AND ANY EXPRESS<br>
+    OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED<br>
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE<br>
+    ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY<br>
+    DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL<br>
+    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE<br>
+    GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS<br>
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER<br>
+    IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR<br>
+    OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN<br>
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+<p>Mapion GL uses portions of LOST.</p>
+<p>Copyright © 2014 Mapzen</p>
+<p>Licensed under the Apache License, Version 2.0 (the “License”);<br>
+    you may not use this file except in compliance with the License.<br>
+    You may obtain a copy of the License at</p>
+<p>
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>
+</p>
+<p>Unless required by applicable law or agreed to in writing, software<br>
+    distributed under the License is distributed on an “AS IS” BASIS,<br>
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+    See the License for the specific language governing permissions and<br>
+    limitations under the License.</p>
+<p>Mapion GL uses portions of the Mapbox iOS SDK, which was derived from the<br>
+    Route-Me open source project, including the Alpstein fork of it.</p>
+<p>The Route-Me license appears below.</p>
+<p>Copyright © 2008-2013, Route-Me Contributors<br>
+    All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions are met:</p>
+<ul>
+    <li>Redistributions of source code must retain the above copyright notice, this<br>
+        list of conditions and the following disclaimer.
+    </li>
+    <li>Redistributions in binary form must reproduce the above copyright notice,<br>
+        this list of conditions and the following disclaimer in the documentation<br>
+        and/or other materials provided with the distribution.
+    </li>
+</ul>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS”<br>
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE<br>
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE<br>
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE<br>
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR<br>
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF<br>
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS<br>
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN<br>
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)<br>
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<br>
+    POSSIBILITY OF SUCH DAMAGE.</p>
+<p>Mapion GL uses portions of nunicode.</p>
+<p>Copyright © 2013 Aleksey Tulinov <a href="mailto:aleksey.tulinov@gmail.com">aleksey.tulinov@gmail.com</a>
+</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy<br>
+    of this software and associated documentation files (the “Software”), to deal<br>
+    in the Software without restriction, including without limitation the rights<br>
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell<br>
+    copies of the Software, and to permit persons to whom the Software is<br>
+    furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in<br>
+    all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<br>
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,<br>
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN<br>
+    THE SOFTWARE.</p>
+<p>Mapion GL uses portions of OkHTTP.</p>
+<p>Copyright 2014 Square, Inc.</p>
+<p>Licensed under the Apache License, Version 2.0 (the “License”);<br>
+    you may not use this file except in compliance with the License.<br>
+    You may obtain a copy of the License at</p>
+<p>
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>
+</p>
+<p>Unless required by applicable law or agreed to in writing, software<br>
+    distributed under the License is distributed on an “AS IS” BASIS,<br>
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+    See the License for the specific language governing permissions and<br>
+    limitations under the License.</p>
+<p>Mapion GL uses portions of OpenSSL.</p>
+<h1><a id="LICENSE_ISSUES_637"></a>LICENSE ISSUES</h1>
+<p>The OpenSSL toolkit stays under a dual license, i.e. both the conditions of<br>
+    the OpenSSL License and the original SSLeay license apply to the toolkit.<br>
+    See below for the actual license texts. Actually both licenses are BSD-style<br>
+    Open Source licenses. In case of any license issues related to OpenSSL<br>
+    please contact <a href="mailto:openssl-core@openssl.org">openssl-core@openssl.org</a>.</p>
+<h2><a id="OpenSSL_License_646"></a>OpenSSL License</h2>
+<p>Copyright © 1998-2011 The OpenSSL Project. All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions<br>
+    are met:</p>
+<ol>
+    <li>
+        <p>Redistributions of source code must retain the above copyright<br>
+            notice, this list of conditions and the following disclaimer.</p>
+    </li>
+    <li>
+        <p>Redistributions in binary form must reproduce the above copyright<br>
+            notice, this list of conditions and the following disclaimer in<br>
+            the documentation and/or other materials provided with the<br>
+            distribution.</p>
+    </li>
+    <li>
+        <p>All advertising materials mentioning features or use of this<br>
+            software must display the following acknowledgment:<br>
+            “This product includes software developed by the OpenSSL Project<br>
+            for use in the OpenSSL Toolkit. (<a href="http://www.openssl.org/">http://www.openssl.org/</a>)”
+        </p>
+    </li>
+    <li>
+        <p>The names “OpenSSL Toolkit” and “OpenSSL Project” must not be used to<br>
+            endorse or promote products derived from this software without<br>
+            prior written permission. For written permission, please contact<br>
+            <a href="mailto:openssl-core@openssl.org">openssl-core@openssl.org</a>.</p>
+    </li>
+    <li>
+        <p>Products derived from this software may not be called “OpenSSL”<br>
+            nor may “OpenSSL” appear in their names without prior written<br>
+            permission of the OpenSSL Project.</p>
+    </li>
+    <li>
+        <p>Redistributions of any form whatsoever must retain the following<br>
+            acknowledgment:<br>
+            “This product includes software developed by the OpenSSL Project<br>
+            for use in the OpenSSL Toolkit (<a href="http://www.openssl.org/">http://www.openssl.org/</a>)”
+        </p>
+    </li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS’’ AND ANY<br>
+    EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE<br>
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR<br>
+    PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR<br>
+    ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,<br>
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT<br>
+    NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;<br>
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)<br>
+    HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,<br>
+    STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)<br>
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED<br>
+    OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+<p>This product includes cryptographic software written by Eric Young<br>
+    (<a href="mailto:eay@cryptsoft.com">eay@cryptsoft.com</a>). This product includes software
+    written by Tim<br>
+    Hudson (<a href="mailto:tjh@cryptsoft.com">tjh@cryptsoft.com</a>).</p>
+<h2><a id="Original_SSLeay_License_699"></a>Original SSLeay License</h2>
+<p>Copyright © 1995-1998 Eric Young (<a href="mailto:eay@cryptsoft.com">eay@cryptsoft.com</a>)<br>
+    All rights reserved.</p>
+<p>This package is an SSL implementation written<br>
+    by Eric Young (<a href="mailto:eay@cryptsoft.com">eay@cryptsoft.com</a>).<br>
+    The implementation was written so as to conform with Netscapes SSL.</p>
+<p>This library is free for commercial and non-commercial use as long as<br>
+    The following conditions are aheared to. The following conditions<br>
+    apply to all code found in this distribution, be it the RC4, RSA,<br>
+    lhash, DES, etc., code; not just the SSL code. The SSL documentation<br>
+    included with this distribution is covered by the same copyright terms<br>
+    except that the holder is Tim Hudson (<a href="mailto:tjh@cryptsoft.com">tjh@cryptsoft.com</a>).
+</p>
+<p>Copyright remains Eric Young’s, and as such any Copyright notices in<br>
+    the code are not to be removed.<br>
+    If this package is used in a product, Eric Young should be given attribution<br>
+    as the author of the parts of the library used.<br>
+    This can be in the form of a textual message at program startup or<br>
+    in documentation (online or textual) provided with the package.</p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions<br>
+    are met:</p>
+<ol>
+    <li>Redistributions of source code must retain the copyright<br>
+        notice, this list of conditions and the following disclaimer.
+    </li>
+    <li>Redistributions in binary form must reproduce the above copyright<br>
+        notice, this list of conditions and the following disclaimer in the<br>
+        documentation and/or other materials provided with the distribution.
+    </li>
+    <li>All advertising materials mentioning features or use of this software<br>
+        must display the following acknowledgement:<br>
+        “This product includes cryptographic software written by<br>
+        Eric Young (<a href="mailto:eay@cryptsoft.com">eay@cryptsoft.com</a>)”<br>
+        The word ‘cryptographic’ can be left out if the rouines from the library<br>
+        being used are not cryptographic related :-).
+    </li>
+    <li>If you include any Windows specific code (or a derivative thereof) from<br>
+        the apps directory (application code) you must include an acknowledgement:<br>
+        “This product includes software written by Tim Hudson (<a href="mailto:tjh@cryptsoft.com">tjh@cryptsoft.com</a>)”
+    </li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS’’ AND<br>
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE<br>
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE<br>
+    ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE<br>
+    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL<br>
+    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS<br>
+    OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)<br>
+    HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT<br>
+    LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY<br>
+    OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF<br>
+    SUCH DAMAGE.</p>
+<p>The licence and distribution terms for any publically available version or<br>
+    derivative of this code cannot be changed. i.e. this code cannot simply be<br>
+    copied and put under another distribution licence<br>
+    [including the GNU Public Licence.]</p>
+<p>Mapion GL uses portions of RapidJSON.</p>
+<p>Tencent is pleased to support the open source community by making RapidJSON<br>
+    available.</p>
+<p>Copyright © 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights<br>
+    reserved.</p>
+<p>If you have downloaded a copy of the RapidJSON binary from Tencent, please note<br>
+    that the RapidJSON binary is licensed under the MIT License. If you have<br>
+    downloaded a copy of the RapidJSON source code from Tencent, please note that<br>
+    RapidJSON source code is licensed under the MIT License, except for the third-<br>
+    party components listed below which are subject to different license terms.<br>
+    Your integration of RapidJSON into your own projects may require compliance with<br>
+    the MIT License, as well as the other licenses applicable to the third-party<br>
+    components included within RapidJSON. To avoid the problematic JSON license in<br>
+    your own projects, it’s sufficient to exclude the bin/jsonchecker/ directory, as<br>
+    it’s the only code under the JSON license. A copy of the MIT License is included<br>
+    in this file.</p>
+<p>Other dependencies and licenses:</p>
+<h2><a id="Open_Source_Software_Licensed_Under_the_BSD_License_782"></a>Open Source Software
+    Licensed Under the BSD License:</h2>
+<p>The msinttypes r29<br>
+    Copyright © 2006-2013 Alexander Chemeris<br>
+    All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions are met:</p>
+<ul>
+    <li>Redistributions of source code must retain the above copyright notice,<br>
+        this list of conditions and the following disclaimer.
+    </li>
+    <li>Redistributions in binary form must reproduce the above copyright notice,<br>
+        this list of conditions and the following disclaimer in the documentation<br>
+        and/or other materials provided with the distribution.
+    </li>
+    <li>Neither the name of copyright holder nor the names of its contributors may be<br>
+        used to endorse or promote products derived from this software without<br>
+        specific prior written permission.
+    </li>
+</ul>
+<p>THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS’’ AND ANY<br>
+    EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED<br>
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE<br>
+    DISCLAIMED. IN NO EVENT SHALL THE REGENTS AND CONTRIBUTORS BE LIABLE FOR ANY<br>
+    DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES<br>
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;<br>
+    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON<br>
+    ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT<br>
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS<br>
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+<h2><a id="Open_Source_Software_Licensed_Under_the_JSON_License_812"></a>Open Source Software
+    Licensed Under the JSON License:</h2>
+<p><a href="http://json.org">json.org</a><br>
+    Copyright © 2002 <a href="http://JSON.org">JSON.org</a><br>
+    All Rights Reserved.</p>
+<p>JSON_checker<br>
+    Copyright © 2002 <a href="http://JSON.org">JSON.org</a><br>
+    All Rights Reserved.</p>
+<h2><a id="Terms_of_the_JSON_License_823"></a>Terms of the JSON License:</h2>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of<br>
+    this software and associated documentation files (the “Software”), to deal in<br>
+    the Software without restriction, including without limitation the rights to<br>
+    use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of<br>
+    the Software, and to permit persons to whom the Software is furnished to do so,<br>
+    subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all<br>
+    copies or substantial portions of the Software.</p>
+<p>The Software shall be used for Good, not Evil.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS<br>
+    FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR<br>
+    COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER<br>
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN<br>
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<h2><a id="Terms_of_the_MIT_License_845"></a>Terms of the MIT License:</h2>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of<br>
+    this software and associated documentation files (the “Software”), to deal in<br>
+    the Software without restriction, including without limitation the rights to<br>
+    use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of<br>
+    the Software, and to permit persons to whom the Software is furnished to do so,<br>
+    subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all<br>
+    copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS<br>
+    FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR<br>
+    COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER<br>
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN<br>
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>Mapion GL uses portions of Reachability.</p>
+<p>Copyright © 2011, Tony Million.<br>
+    All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without<br>
+    modification, are permitted provided that the following conditions are met:</p>
+<ol>
+    <li>
+        <p>Redistributions of source code must retain the above copyright notice, this<br>
+            list of conditions and the following disclaimer.</p>
+    </li>
+    <li>
+        <p>Redistributions in binary form must reproduce the above copyright notice,<br>
+            this list of conditions and the following disclaimer in the documentation<br>
+            and/or other materials provided with the distribution.</p>
+    </li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS”<br>
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE<br>
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE<br>
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE<br>
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR<br>
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF<br>
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS<br>
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN<br>
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)<br>
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<br>
+    POSSIBILITY OF SUCH DAMAGE.</p>
+<p>Mapion GL uses portions of SQLite.</p>
+<p>2001 September 15</p>
+<p>The author disclaims copyright to this source code. In place of<br>
+    a legal notice, here is a blessing:</p>
+<pre><code>May you do good and not evil.
+May you find forgiveness for yourself and forgive others.
+May you share freely, never taking more than you give.
+</code></pre>
+<p>Mapion GL uses portions of SVPulsingAnnotationView.</p>
+<p>Copyright © 2013, Sam Vermette <a href="mailto:hello@samvermette.com">hello@samvermette.com</a>
+</p>
+<p>Permission to use, copy, modify, and/or distribute this software for any purpose<br>
+    with or without fee is hereby granted, provided that the above copyright notice<br>
+    and this permission notice appear in all copies.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS” AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH<br>
+    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND<br>
+    FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,<br>
+    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS<br>
+    OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER<br>
+    TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF<br>
+    THIS SOFTWARE.</p>
+<p>Mapion GL uses portions of zlib.</p>
+<p>Acknowledgments:</p>
+<p>The deflate format used by zlib was defined by Phil Katz. The deflate and<br>
+    zlib specifications were written by L. Peter Deutsch. Thanks to all the<br>
+    people who reported problems and suggested various improvements in zlib; they<br>
+    are too numerous to cite here.</p>
+<p>Copyright notice:</p>
+<p>© 1995-2013 Jean-loup Gailly and Mark Adler</p>
+<p>This software is provided ‘as-is’, without any express or implied<br>
+    warranty. In no event will the authors be held liable for any damages<br>
+    arising from the use of this software.</p>
+<p>Permission is granted to anyone to use this software for any purpose,<br>
+    including commercial applications, and to alter it and redistribute it<br>
+    freely, subject to the following restrictions:</p>
+<ol>
+    <li>The origin of this software must not be misrepresented; you must not<br>
+        claim that you wrote the original software. If you use this software<br>
+        in a product, an acknowledgment in the product documentation would be<br>
+        appreciated but is not required.
+    </li>
+    <li>Altered source versions must be plainly marked as such, and must not be<br>
+        misrepresented as being the original software.
+    </li>
+    <li>This notice may not be removed or altered from any source distribution.</li>
+</ol>
+<p>Jean-loup Gailly Mark Adler<br>
+    <a href="mailto:jloup@gzip.org">jloup@gzip.org</a> <a href="mailto:madler@alumni.caltech.edu">madler@alumni.caltech.edu</a>
+</p>
+<p>Mapion GL uses portions of Realm Objective-C.</p>
+<p>Copyright 2015 Realm Inc.</p>
+<p>Licensed under the Apache License, Version 2.0 (the “License”);<br>
+    you may not use this file except in compliance with the License.<br>
+    You may obtain a copy of the License at</p>
+<p>
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>
+</p>
+<p>Unless required by applicable law or agreed to in writing, software<br>
+    distributed under the License is distributed on an “AS IS” BASIS,<br>
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+    See the License for the specific language governing permissions and<br>
+    limitations under the License.</p>
+
+</body>
+</html>

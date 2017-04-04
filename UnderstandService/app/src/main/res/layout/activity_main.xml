@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btnStartBoundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Start Bound Service"
+        />
+
+    <Button
+        android:id="@+id/btnStopBoundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Bound Service"
+        />
+
+
+    <Button
+        android:id="@+id/btnStartUnBoundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Start UnBound Service"
+        />
+
+    <Button
+        android:id="@+id/btnStopUnBoundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop UnBound Service"
+        />
+
+
+</LinearLayout>
